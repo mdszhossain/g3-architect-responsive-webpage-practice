@@ -53,6 +53,7 @@ nav li a {
     margin-top: 116px;
 }
 .banner-description {
+    font-size: 1rem;
     margin-top: 30px;
 }
 .primary-button {
@@ -74,4 +75,71 @@ nav li a {
 .banner img {
     width: 100%;
     margin-top: 50px;
+}
+
+/* Screen Size <= 576px */
+
+@media screen and (max-width: 576px) {
+    /* Header & Banner Section */
+    header {
+        padding: 30px 70px;
+    }
+    #nav-logo {
+        font-size: 1rem;
+    }
+    nav li {
+        margin-left: 20px;
+    }
+    .banner-title {
+        font-size: 2.5rem;
+        margin-top: 90px;
+    }
+}
+
+/* Screen Size >= 576px && <= 768px*/
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    header {
+        padding: 30px 100px;
+    }
+    #nav-logo {
+        font-size: 1rem;
+    }
+    nav li {
+        margin-left: 20px;
+    }
+    .banner-title {
+        font-size: 3rem;
+        margin-top: 100px;
+    }
+}
+
+/* Screen Size >= 768px && <= 992px */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header {
+        padding: 30px 100px;
+    }
+    #nav-logo {
+        font-size: 2rem;
+    }
+    nav li {
+        margin-left: 30px;
+    }
+    .banner-title {
+        font-size: 3rem;
+        margin-top: 100px;
+    }
+}
+
+/* Screen Size >= 992px && <= 1200px */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #nav-logo {
+        font-size: 2rem;
+    }
+    .banner-title {
+        font-size: 2.5rem;
+        margin-top: 100px;
+    }
 }
