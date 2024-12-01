@@ -6,4 +6,72 @@
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+.p-text-color {
+    color: #131313;
+}
+.s-text-color {
+    color: #727272;
+}
+
+/* Header Section */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+#nav-logo {
+    font-size: 2.813rem;
+    font-weight: 700;
+}
+nav > ul {
+    display: flex;
+}
+nav li {
+    list-style-type: none;
+    margin-left: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+.banner-title, .banner-description {
+    text-align: center;
+}
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 116px;
+}
+.banner-description {
+    margin-top: 30px;
+}
+.primary-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn-primary {
+    border: 0;
+    background-color: #FF900E;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: normal;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.banner img {
+    width: 100%;
+    margin-top: 50px;
 }
